@@ -16,8 +16,152 @@
               </nav>
     <!--#include virtual="users_list.html"-->
     
-    <object data="users_list.html" type="text/html"></object>
-    <style>
+    <link rel="stylesheet" href="css/bootstrap.css">
+<div class="table_usr">
+    <table class="table table-striped table-hover">
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>ID</th>
+            <th>Reputation</th>
+            <th>Successful trades</th>
+            <th>Unsuccessful trades</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope='row'>1</th>
+            <td><a href="#">123</a></td>
+            <td>0.0122</td>
+            <td>10</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td><a href="#">1212</a></td>
+            <td>0.0122</td>
+            <td>102</td>
+            <td>72</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td><a href="#">5656</a></td>
+            <td>0.0122</td>
+            <td>150</td>
+            <td>75</td>
+        </tr>
+        <tr>
+            <th scope="row">4</th>
+            <td><a href="#">5656</a></td>
+            <td>0.0122</td>
+            <td>150</td>
+            <td>75</td>
+        </tr>
+        <tr>
+            <th scope="row">5</th>
+            <td><a href="#">5656</a></td>
+            <td>0.0122</td>
+            <td>150</td>
+            <td>75</td>
+        </tr>
+        <tr>
+                <th scope="row">6</th>
+                <td><a href="#">123</a></td>
+                <td>0.0122</td>
+                <td>10</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <th scope="row">7</th>
+                <td><a href="#">1212</a></td>
+                <td>0.0122</td>
+                <td>102</td>
+                <td>72</td>
+            </tr>
+            <tr>
+                <th scope="row">8</th>
+                <td><a href="#">5656</a></td>
+                <td>0.0122</td>
+                <td>150</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <th scope="row">9</th>
+                <td><a href="#">5656</a></td>
+                <td>0.0122</td>
+                <td>150</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <th scope="row">10</th>
+                <td><a href="#">5656</a></td>
+                <td>0.0122</td>
+                <td>150</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <th scope="row">11</th>
+                <td><a href="#">5656</a></td>
+                <td>0.0122</td>
+                <td>150</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <th scope="row">12</th>
+                <td><a href="#">5656</a></td>
+                <td>0.0122</td>
+                <td>150</td>
+                <td>75</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<style>
+
+        a{
+          color: #212529;
+        }
+
+        a:hover{
+            color: #0f1113;
+            text-decoration: none;
+        }
+
+        .table_usr, .table_agents{
+            width: 90%;
+            margin: 0 auto;
+            margin-bottom: 0 !important;
+            border-bottom: none;
+            margin-top: 6rem;
+            height: 29.5rem;
+            overflow: auto;
+        }
+
+        object td{
+            padding: 0 auto;
+        }
+        .table thead th{
+            border-bottom: 2px solid rgba(67, 120, 146, 0.1);
+            padding: 0.35rem;
+            padding-left: 0.75rem;
+        }
+
+        .table{
+            border: 1px solid rgba(67, 120, 146, 0.1);
+            margin-bottom: 0;
+        }
+        .table-striped tbody tr:nth-of-type(2n+1){
+          height: 10px !important;
+            background-color: rgba(67, 120, 146, 0.1);
+        }
+        .table-hover tbody tr:hover{
+            background-color: rgba(67, 120, 146, 0.15);
+        }
+        tbody td, tbody th {
+          padding: 0.575rem !important;
+        }
+
         a{
         color: #212529;
         }
@@ -27,14 +171,6 @@
             text-decoration: none;
         }
 
-        object{
-            overflow: hidden;
-            width: 90%;
-            height: 29.5rem;
-            margin: 5%;
-            margin-top: 80px;
-            border-bottom: 1px solid rgba(67, 120, 146, 0.1);
-        }
         .logo{
             background: #3e7088;
         }
