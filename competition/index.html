@@ -6,44 +6,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
 
-    <title>Competition</title>
+    <title>Рейтинг пользователей</title>
   </head>
   <body>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top logo">
                 <a class="navbar-brand" href="#">КИБЕРГАРАНТ</a>
-              </nav>
-    <!--#include virtual="users_list.html"-->
-    
-    <object data="users_list.html" type="text/html"></object>
-    <style>
-        a{
-        color: #212529;
-        }
+              </nav>    
+    <link rel="stylesheet" href="css/bootstrap.css">
+<div class="table_usr">
+    <table class="table table-striped table-hover">
+        <thead><tr>
+<th scope='row'>1</th>
+<td><a href='users/1/stats.html'>1</a></td>
+<td>1.601</td>
+<td>1 (101 USD)</td>
+<td>0 (0 USD)</td>
+</tr>
+<tr>
+<th scope='row'>2</th>
+<td><a href='users/2/stats.html'>2</a></td>
+<td>1.600</td>
+<td>1 (100 USD)</td>
+<td>0 (0 USD)</td>
+</tr>
+</tbody>
+</table>
+</div>
 
-        a:hover{
-            color: #0f1113;
-            text-decoration: none;
-        }
+<style>
 
-        object{
-            overflow: hidden;
-            width: 90%;
-            height: 29.5rem;
-            margin: 5%;
-            margin-top: 80px;
-        }
-        .logo{
-            background: #3e7088;
-        }
-        .logo a{
-            margin: 0 auto;
-        }
+    a{
+      color: #212529;
+    }
+
+    a:hover{
+        color: #0f1113;
+        text-decoration: none;
+    }
+
+    .table_usr, .table_agents{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 0 !important;
+        border-bottom: none;
+        margin-top: 6rem;
+        height: 29.5rem;
+        overflow: auto;
+    }
+
+    object td{
+        padding: 0 auto;
+    }
+    .table thead th{
+        border-bottom: 2px solid rgba(67, 120, 146, 0.1);
+        padding: 0.35rem;
+        padding-left: 0.75rem;
+    }
+
+    .table{
+        border: 1px solid rgba(67, 120, 146, 0.1);
+        margin-bottom: 0;
+    }
+    .table-striped tbody tr:nth-of-type(2n+1){
+      height: 10px !important;
+        background-color: rgba(67, 120, 146, 0.1);
+    }
+    .table-hover tbody tr:hover{
+        background-color: rgba(67, 120, 146, 0.15);
+    }
+    tbody td, tbody th {
+      padding: 0.575rem !important;
+    }
+
+    a{
+    color: #212529;
+    }
+
+    a:hover{
+        color: #0f1113;
+        text-decoration: none;
+    }
+
+    .logo{
+        background: #3e7088;
+    }
+    .logo a{
+        margin: 0 auto;
+    }
 </style>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
 </html>
