@@ -21,9 +21,6 @@
         border-bottom: none;
     }
 
-    object td{
-        padding: 0 auto;
-    }
     .table thead th{
         border-bottom: 2px solid rgba(67, 120, 146, 0.1);
         padding: 0.35rem;
@@ -31,12 +28,19 @@
     }
     .table{
         border: 1px solid rgba(67, 120, 146, 0.1);
+        border-bottom: none;
         margin-bottom: 0;
     }
-    .table-striped tbody tr:nth-of-type(2n+1){
+    .table-striped tbody tr{
         background-color: rgba(67, 120, 146, 0.1);
     }
-    .table-hover tbody tr:hover{
+    #unsuccess{
+        background-color: rgba(255, 0, 0, 0.1) !important;
+    }
+    #success{
+        background-color: rgba(0, 255, 55, 0.1) !important;
+    }
+    .table-hover tbody tr:hover, #unsuccess:hover{
         background-color: rgba(67, 120, 146, 0.15);
     }
 
