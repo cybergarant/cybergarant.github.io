@@ -1,0 +1,19 @@
+h1, h2, h3, h4, h5, h6{
+  display: inline;
+}
+.block-info{
+  font-family: open-sans;
+  background: #FFFF;
+  margin: 5%;
+  padding: 20px 5%;
+  border-radius: 20px;
+}
+.user_uuid{
+  word-break:break-all;
+  display: inline;
+}
+.history{
+  margin-top: 5%;
+  overflow-x: auto;
+  width: 100%;
+}

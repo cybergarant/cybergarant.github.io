@@ -1,0 +1,23 @@
+.table_users{
+    margin: 5%;
+    background: #FFFF;
+    border-radius: 20px;
+    max-height: 426px;
+    overflow: auto;
+}
+.table_users::-webkit-scrollbar{
+    width: 4px;
+    }
+
+#rep_good{
+    background-color: rgba(0, 255, 55, 0.1) !important;
+} 
+#rep_normal{
+    background-color: rgba(251, 255, 0, 0.1) !important;
+} 
+#rep_bad{
+    background-color: rgba(255, 0, 0, 0.1) !important;
+} 
+#rep_good:hover, #rep_normal:hover, #rep_bad:hover{
+    background-color: rgba(67, 120, 146, 0.15) !important;
+}

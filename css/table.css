@@ -1,0 +1,27 @@
+.table thead th{
+  border-bottom: 2px solid rgba(67, 120, 146, 0.1);
+  padding: 0.35rem;
+  padding-left: 0.75rem;
+}
+.table{
+    border: 1px solid rgba(67, 120, 146, 0.1);
+    margin-bottom: 0;
+}
+tbody td, tbody th {
+  padding: 0.575rem !important;
+}
+.table {
+  border: none;
+}
+.table thead th {
+  border-top: none;
+}
+#unsuccess{
+  background-color: rgba(255, 0, 0, 0.1) !important;
+}
+#success{
+  background-color: rgba(0, 255, 55, 0.1) !important;
+}
+.table-hover tbody tr:hover, #success:hover, #success:hover{
+  background-color: rgba(67, 120, 146, 0.15) !important;
+}

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: montserrat; /* Имя шрифта */
+    src: url(../fonts/Montserrat-SemiBold.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: open-sans; /* Имя шрифта */
+    src: url(../fonts/OpenSans-Regular.ttf); /* Путь к файлу со шрифтом */
+}  
