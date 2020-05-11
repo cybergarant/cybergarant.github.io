@@ -1,4 +1,50 @@
-.table_users{
+.block-info-left .description, .block-info-right .description{
+    margin-top: 3%;
+    font-family: open-sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+
+    /* or 21px */
+
+    /* font */
+    color: #0E1E31;
+    opacity: 0.8;
+  }
+  .block-info-left .title, .block-info-right .title{
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 200%;
+    line-height: 110%;
+
+    /* or 40px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+
+    /* dark */
+    color: #17223F;
+  }
+  .block-info-right .image, .block-info-left .image{
+    flex: none;
+    align-self: center;
+    margin: 1% 0px;
+  }
+  .block-info-left .image{
+    order: 1;
+  }
+  .block-info-right .image{
+    order: 0;
+  }
+  .block-info-right, .block-info-left{
+    background: #FFFF;
+    margin: 5%;
+    padding: 20px 5%;
+    border-radius: 20px;
+  }
+  .table_users{
     margin: 5%;
     background: #FFFF;
     border-radius: 20px;
