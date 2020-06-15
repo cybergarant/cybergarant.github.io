@@ -1,15 +1,26 @@
 #navbarSupportedContent{
     margin-right: -3%;
   }
+.navbar-toggler i{
+  margin-right: 0;
+}
+.navbar-light .navbar-toggler {
+  border: none;
+}
+.right{
+  margin-left: 21% !important;
+  float: right;
+}
+.right li a{
+  padding-right: 2rem !important;
+  padding-left: 2rem !important;
+}
 @media (min-width: 991.98px) {
   .all{
     width: 100%;
     margin-right: 0px !important;
   }
   .right{
-    margin-left: 18% !important;
-  }
-  .right, .right li{
     width:100%; 
   }
   .header .nav-link {
@@ -28,12 +39,33 @@
     margin-left: -3%;
   }
 }
+@media (max-width: 1200px) {
+  .right li a{
+    padding-right: 1.4rem !important;
+    padding-left: 1.4rem !important;
+  }
+  .right{
+    margin-left: 10% !important;
+  }
+}
 @media (max-width: 576px) {
   .navbar-brand {
     font-size: 100% !important;
     margin-right: 0.5rem;
   }
 }  
+@media(max-width: 991.98px){
+  .right{
+    margin-left: 0% !important;
+  }
+  .right li a{
+    padding-right: 0% !important;
+    padding-left: 0% !important;
+  }
+}
+.right li a.far{
+  padding-right: 0 !important;
+}
 i{
   margin-right: 8px;
 }
@@ -77,9 +109,4 @@ a:hover{
   margin: 12px 0px;
   color: #0E1E31;
   opacity: 0.8;
-}
-@media (max-width: 1200px) {
-  .right {
-    margin-left: 16% !important;
-  }
 }

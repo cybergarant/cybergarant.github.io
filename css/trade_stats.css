@@ -5,13 +5,13 @@
 h1, h2, h3, h4, h5, h6{
   display: inline;
 }
-#success{
+#success_text{
   color: rgb(67, 146, 71);
 }
-#unsuccess{
+#unsuccess_text{
   color: rgb(146, 67, 67);
 }
-#active{
+#active_text{
   color: rgb(67, 120, 146);
 }
 #reason{
